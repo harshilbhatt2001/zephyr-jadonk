@@ -24,7 +24,7 @@ manifest:
     - name: bcf-sdk
       url-base: https://github.com/jadonk
     - name: gb-fork
-      url-base: https://git.beagleboard.org/gsoc/greybus-for-zephyr
+      url-base: https://git.beagleboard.org/gsoc
 
   #
   # Please add items below based on alphabetical order
@@ -57,7 +57,7 @@ manifest:
       path: modules/lib/wpanusb_bc
       revision: main
     - name: greybus-for-zephyr
-      remote: 
+      remote: gb-fork
       path: modules/lib/greybus
       revision: 9fd1f60da38f0f3476428232cf90043b96abd64e
     - name: manifesto
