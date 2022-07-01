@@ -59,7 +59,7 @@ manifest:
     - name: greybus-for-zephyr
       remote: gb-fork
       path: modules/lib/greybus
-      revision: 9fd1f60da38f0f3476428232cf90043b96abd64e
+      revision: native_posix
     - name: manifesto
       remote: bcf-sdk
       path: modules/lib/greybus/scripts/manifesto
